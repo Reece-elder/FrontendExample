@@ -1,0 +1,44 @@
+/* Element Selector */
+
+h3 {
+  color: darkblue;
+}
+
+/* Class Selector */
+.classExample {
+  color: darkgreen;
+}
+
+/* ID Selector */
+#idExample {
+  color: maroon;
+}
+
+/* Multiple Element Selector */
+h4,
+h5,
+h6 {
+  text-align: center;
+}
+
+/* Element belonging to a class */
+p.classExample {
+  text-align: right;
+}
+
+/* Child Selector */
+ul > li {
+  color: purple;
+}
+
+/* Descendant Selector */
+div h3 {
+  font-size: large;
+  color: blueviolet;
+}
+
+/* Adjacent Selector */
+h5 + h6 {
+  font-style: italic;
+  font-size: larger;
+}

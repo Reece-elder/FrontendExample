@@ -1,0 +1,23 @@
+.col-sm {
+  border: 5px solid red;
+}
+
+.col-md {
+  border: 5px solid green;
+}
+
+.col-lg {
+  border: 5px solid blue;
+}
+
+.col-xl {
+  border: 5px solid blue;
+}
+
+.col-xxl {
+  border: 5px solid blue;
+}
+
+.col {
+  border: 5px solid coral;
+}

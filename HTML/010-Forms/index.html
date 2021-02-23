@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <h3>Look at this beatiful site</h3>
+    <form>
+      This is text input:
+      <input
+        type="text"
+        name="UserName"
+        placeholder="Enter Username"
+        value="Current Value"
+      />
+      <br />
+      <button type="submit">Okay!</button>
+      <button type="reset">Not Okay :(</button>
+      <button type="button" name="Okay!" value="OK">does nothing..</button>
+    </form>
+
+    <br /><br />
+
+    <form method="post" action="scripts/subscribe.pl">
+      This is another text input:
+      <input
+        type="text"
+        name="UserName"
+        placeholder="Enter Username"
+        value="Current Value"
+      />
+      <br />
+      <button type="submit">Okay!</button>
+      <button type="reset">Not Okay :(</button>
+    </form>
+
+    <br /><br />
+
+    <form>
+      This is a text area:
+      <textarea name="textArea" rows="5" cols="60">
+ Please enter your address </textarea
+      >
+      <br />
+      <button type="submit">Okay!</button>
+      <button type="reset">Not Okay :(</button>
+    </form>
+
+    <br /><br />
+
+    <form>
+      These are radio choice selections:
+      <input type="radio" name="SauceChoice" value="ketchup" /> Ketchup
+      <input type="radio" name="SauceChoice" value="brownSauce" /> Brown Sauce
+      <input type="radio" name="SauceChoice" value="bbq" /> BBQ
+      <br />
+      These are multiple choice selections:
+      <input type="checkbox" name="sidesChoice" value="salad" /> Salad
+      <input type="checkbox" name="sidesChoice" value="chips" /> Chips
+      <input type="checkbox" name="sidesChoice" value="beans" /> Beans
+      <br />
+      <button type="submit">Okay!</button>
+      <button type="reset">Not Okay :(</button>
+    </form>
+
+    <form>
+      Choose a wood type:
+      <select id="wood" name="wood">
+        <option value="teak">Teak</option>
+        <option value="mahogany">Mahogany</option>
+        <option value="oak">Oak</option>
+        <option value="fir">Fir</option>
+        <option value="willow">Willow</option>
+        <option value="birch">Birch</option>
+      </select>
+      <button type="submit">Okay!</button>
+      <button type="reset">Not Okay :(</button>
+    </form>
+    <br />
+    <form>
+      <fieldset>
+        <legend>Your details</legend>
+        <label for="fname">First name</label>
+        <input id="fname" type="text" />
+        <br /><br />
+        <label for="sname">First name</label>
+        <input id="sname" type="text" />
+        <br /><br />
+        <label for="age">Age</label>
+        <input id="age" type="number" />
+      </fieldset>
+    </form>
+  </body>
+</html>
